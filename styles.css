@@ -1,4 +1,27 @@
 body{
     font-family: Lora;
     background-color: lightgray;
+    
+}
+h2, p, .readme-wrapper{
+    text-align: center;
+}
+a:link{ 
+    text-decoration: none; 
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: pointer;
+}
+a:active{
+    text-decoration: none;
+}
+a{
+    color: rgb(7, 196, 22);
+}
+.name{
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
 }
