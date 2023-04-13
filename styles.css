@@ -1,54 +1,71 @@
-body{
+body {
     font-family: Lora;
     background-color: lightgray;
-    
+
 }
-h2, p, .readme-wrapper{
+
+h2,
+p,
+.readme-wrapper {
     text-align: center;
 }
-a:link{ 
-    text-decoration: none; 
-}
-a:visited{
+
+a:link {
     text-decoration: none;
 }
-a:hover{
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
     text-decoration: pointer;
 }
-a:active{
+
+a:active {
     text-decoration: none;
 }
-a{
+
+a {
     color: rgb(7, 196, 22);
 }
-.name{
+
+.name {
     color: rgb(255, 0, 0);
     font-weight: bolder;
 }
-.boxes{
+
+.boxes {
     margin: 5em;
     padding: 0em;
     border: solid rgb(49, 49, 99);
     border-radius: 2em;
     width: 30em;
-    display: inline-block
+
 }
-.blueviolet{
+
+.blueviolet {
     border-radius: 2em;
     background-color: blueviolet;
-    
+
 }
-.orange{
+
+.orange {
     border-radius: 2em;
     background-color: orange;
-    
+
 }
-.red{
+
+.red {
     border-radius: 2em;
     background-color: darkred;
-    
+
 }
-.green{
+
+.green {
     border-radius: 2em;
     background-color: limegreen;
+}
+.boxes{
+    display:block
 }
