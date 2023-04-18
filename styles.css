@@ -8,6 +8,8 @@ h2,
 p,
 .readme-wrapper {
     text-align: center;
+    position: relative;
+    bottom: 25px
 }
 
 a:link {
@@ -68,4 +70,42 @@ a {
 }
 .boxes{
     display:block
+}
+.images{
+    position: relative;
+    top: 20px;
+    left: 150px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+}
+h1{
+    color: rgb(1, 112, 116);
+}
+.original{
+    color: chocolate;
+}
+.additional{
+    color: cornflowerblue;
+}
+ul{
+    color: crimson;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.star{
+    color: chartreuse;
+    font-family: fantasy
+}
+#wars{
+    font-family: monospace;
+    color: turquoise;
+    font-weight: bolder;
+    font-size: large;
+}
+#bb1{
+    border-radius: 2px;
+    border-color: black;
+    border: solid;
 }
